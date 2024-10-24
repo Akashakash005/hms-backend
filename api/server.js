@@ -753,6 +753,8 @@ async function getUserByEmail(email, role) {
   }
 }
 
+app.get("/api/test", (req, res) => res.send("Test route working"));
+
 // Start the server
 const PORT = process.env.PORT || 8081;
 app.listen(PORT, () => {
