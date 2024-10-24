@@ -753,6 +753,7 @@ async function getUserByEmail(email, role) {
   }
 }
 
+//test api
 app.get("/api/test", (req, res) => res.send("Test route working"));
 
 // Start the server
