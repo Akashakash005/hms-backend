@@ -3,7 +3,6 @@ const express = require("express");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 const sql = require("mssql");
-const path = require("path");
 
 require("dotenv").config();
 
