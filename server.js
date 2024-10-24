@@ -754,7 +754,7 @@ async function getUserByEmail(email, role) {
 }
 
 //test api
-app.get("/api/test", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "Test route working" });
 });
 
