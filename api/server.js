@@ -1,5 +1,5 @@
 const express = require("express");
-const mysql = require("mysql");
+
 const cors = require("cors");
 const nodemailer = require("nodemailer");
 const sql = require("mssql");
@@ -762,3 +762,5 @@ app.listen(PORT, () => {
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
+
+module.exports = app;
