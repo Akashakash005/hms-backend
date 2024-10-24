@@ -48,6 +48,8 @@ sql
     console.error("Database connection or query failed:", err);
   });
 
+app.use(express.static(path.join(__dirname, "public")));
+
 // =========================================
 // PATIENT MANAGEMENT
 // =========================================
